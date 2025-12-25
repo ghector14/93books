@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="book-page.css">
+    <title>Book - Loading...</title>
+    <link rel="icon" href="Pictures/titlemoon.png">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar-inner">
+        <a id="home" href="index.html">
+            <img id="imghome" src="Pictures/FullMoon.png" alt="Home">
+        </a>
+        <div class="links">
+            <a href="index.html" id="main">All Books</a>
+            <a href="#summary" id="main">Summary</a>
+        </div>
+    </nav>
+
+    <!-- 3D Rotating Book Display -->
+    <div id="book" class="stage">
+        <div class="group">
+            <div class="back"></div>
+            <div class="front"></div>
+        </div>
+    </div>
+
+    <!-- Book Info Section -->
+    <section id="book-info">
+        <h2 id="book-title">Loading...</h2>
+        <p id="book-author"></p>
+    </section>
+
+    <!-- Book Summary Section -->
+    <section id="summary">
+        <div class="summary-intro">
+            <p id="summary-intro-text"></p>
+        </div>
+        
+        <div id="accordion" class="accordion">
+            <!-- Accordion sections will be inserted here -->
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="Background.js" type="module"></script>
+    <script src="books-data.js"></script>
+    <script>
+        // Get book ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const bookId = parseInt(urlParams.get('id'));
+        
+        // Find the book in our data
+        const book = booksData.find(b => b.id === bookId);
+        
+        if (!book) {
+            document.body.innerHTML = '<h1 style="color: white; text-align: center; margin-top: 20vh;">Book not found</h1>';
+        } else {
+            // Update page title
+            document.title = `Book - ${book.title}`;
+            
+            // Update book info
+            document.getElementById('book-title').textContent = book.title;
+            document.getElementById('book-author').textContent = `by ${book.author}`;
+            document.getElementById('summary-intro-text').innerHTML = book.summary.intro;
+            
+            // Set 3D book covers (if available)
+            if (book.coverFront) {
+                const frontDiv = document.querySelector('.front');
+                const backDiv = document.querySelector('.back');
+                
+                // Update front cover
+                frontDiv.style.backgroundImage = `linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%), url("${book.coverFront}"), url(none), url(none)`;
+                
+                // Update back cover
+                backDiv.style.backgroundImage = `linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%), url(none), url(none), url("${book.coverBack}")`;
+                
+                // Update spine (if available)
+                if (book.spine) {
+                    const style = document.createElement('style');
+                    style.textContent = `
+                        .front:before, .back:before {
+                            background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 25%, rgba(0,0,0,0.15) 50%, rgba(255,255,255,0) 100%), 
+                            url(none), url("${book.spine}"), url(none) !important;
+                        }
+                    `;
+                    document.head.appendChild(style);
+                }
+            }
+            
+            // Generate accordion sections
+            const accordion = document.getElementById('accordion');
+            if (book.summary.sections && book.summary.sections.length > 0) {
+                book.summary.sections.forEach((section, index) => {
+                    const sectionDiv = document.createElement('div');
+                    sectionDiv.className = 'accordion-item';
+                    
+                    const header = document.createElement('h3');
+                    header.className = 'accordion-header';
+                    header.textContent = section.title;
+                    
+                    const content = document.createElement('div');
+                    content.className = 'accordion-content';
+                    content.innerHTML = `<p>${section.content}</p>`;
+                    
+                    // Add click handler for accordion
+                    header.addEventListener('click', function() {
+                        // Close all other sections
+                        document.querySelectorAll('.accordion-content').forEach(c => {
+                            if (c !== content) {
+                                c.style.display = 'none';
+                            }
+                        });
+                        
+                        // Toggle this section
+                        if (content.style.display === 'block') {
+                            content.style.display = 'none';
+                        } else {
+                            content.style.display = 'block';
+                        }
+                    });
+                    
+                    sectionDiv.appendChild(header);
+                    sectionDiv.appendChild(content);
+                    accordion.appendChild(sectionDiv);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+ 
+/********************nav*******************************/
+
+nav {
+    background-color: transparent;
+    height: 50px;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    font-family: 'Gruppo', cursive;
+}
+ 
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    color: silver;
+    text-shadow: 1px 1px 5px black;
+    font-size: 2rem;
+}
+
+nav a {
+    margin: 15px;
+}
+ 
+ 
+#main {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Gruppo', cursive;
+}
+ 
+#main:hover {
+    color: gray;
+    cursor: pointer;
+}
+ 
+/*******************Header********************************/
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    padding: 5rem;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(93, 94, 82), silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro {
+    padding-top: 1rem;
+    background-position: center;
+    background-repeat: none;
+    z-index: 1;
+    font-family:'Gruppo', cursive;
+}
+  
+#canvas {
+    background: linear-gradient(143deg,#020303 1%, rgb(1, 30, 53) 48%, rgb(45, 65, 61) 99%),linear-gradient(#1e2652,#1e2652);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#imghome {
+    height: 7vh;
+    padding-top: 75px;
+}
+
+/*******************Books Grid********************************/
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 2rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.book-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-pages-link {
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .books-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 1rem;
+        gap: 15px;
+    }
+    
+    .intro h1 {
+        font-size: 1.8rem;
+        padding: 3rem 1rem;
+    }
+    
+    nav .links {
+        font-size: 1.5rem;
+        margin: 0 15px;
+    }
+    
+    #main {
+        font-size: 1rem;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .books-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}

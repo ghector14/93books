@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="books.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Zen+Dots&display=swap" rel="stylesheet">
+    <title>Book Enlightenment</title>
+    <link rel="icon" href="Pictures/titlemoon.png">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar-inner">
+        <a id="home" href="index.html">
+            <img id="imghome" src="Pictures/FullMoon.png" alt="Home">
+        </a>
+        <div class="links">
+            <a href="#about" id="main">About</a>
+            <a href="#books-section" id="main">Books</a>
+            <a href="#contact" id="main">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="intro">
+        <h1 id="h1">Choose a Book</h1>
+    </div>
+
+    <!-- Books Grid - Dynamically Generated -->
+    <div id="books-grid" class="books-grid">
+        <!-- Books will be inserted here by JavaScript -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="Background.js" type="module"></script>
+    <script src="books-data.js"></script>
+    <script>
+        // Generate book grid dynamically
+        const booksGrid = document.getElementById('books-grid');
+        
+        booksData.forEach((book, index) => {
+            // Create book container
+            const bookDiv = document.createElement('div');
+            bookDiv.className = `book-slot book-${index + 1}`;
+            
+            // Create link to book page
+            const bookLink = document.createElement('a');
+            bookLink.href = `book.html?id=${book.id}`;
+            bookLink.className = 'book-pages-link';
+            
+            // Create book container and book element
+            const bookContainer = document.createElement('div');
+            bookContainer.className = 'book-container';
+            
+            const bookElement = document.createElement('div');
+            bookElement.className = 'book';
+            
+            // Add book cover image
+            const bookImg = document.createElement('img');
+            bookImg.src = book.coverImage;
+            bookImg.alt = book.title;
+            
+            // Assemble the elements
+            bookElement.appendChild(bookImg);
+            bookContainer.appendChild(bookElement);
+            bookLink.appendChild(bookContainer);
+            bookDiv.appendChild(bookLink);
+            
+            // Add to grid
+            booksGrid.appendChild(bookDiv);
+        });
+    </script>
+</body>
+</html>
