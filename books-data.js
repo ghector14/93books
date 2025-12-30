@@ -4,7 +4,7 @@ const booksData = [
     title: "How to Win Friends and Influence People",
     author: "Dale Carnegie",
     abbrev: "HTWFIP",
-    coverImage: "pictures/HWFIP.jpg",
+    coverImage: "Pictures/HWFIP.jpg",
     coverFront: "https://m.media-amazon.com/images/I/41pqEVq1MQL._AC_SY1000_.jpg",
     coverBack: "https://m.media-amazon.com/images/I/51nhK7pMuVL._AC_SY780_.jpg",
     spine: "https://live.staticflickr.com/65535/51932114975_b31b4914e7_b.jpg",
@@ -123,7 +123,7 @@ const booksData = [
     title: "You Can Be Happy No Matter What",
     author: "Richard Carlson",
     abbrev: "YCBHNMW",
-    coverImage: "pictures/YCBHNMW.jpg",
+    coverImage: "Pictures/YCBHNMW.jpg",
     coverFront: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1171466627l/100287._SX318_.jpg",
     coverBack: "https://live.staticflickr.com/65535/51932101455_6faefd9b41_b.jpg",
     spine: "https://live.staticflickr.com/65535/51931804879_8e4e4bab64_b.jpg",
@@ -164,7 +164,7 @@ const booksData = [
     title: "The Power of Now",
     author: "Eckhart Tolle",
     abbrev: "TPON",
-    coverImage: "pictures/TPON.jpg",
+    coverImage: "Pictures/TPON.jpg",
     coverFront: "https://images-na.ssl-images-amazon.com/images/I/71wzP4rL1mL.jpg",
     coverBack: "https://images-na.ssl-images-amazon.com/images/I/81saR9ldJHL.jpg",
     spine: "https://live.staticflickr.com/65535/51931518058_1ae940cf55_b.jpg",
@@ -222,9 +222,9 @@ const booksData = [
     title: "The Tipping Point",
     author: "Malcolm Gladwell",
     abbrev: "TTP",
-    coverImage: "pictures/TTP.jpg",
-    coverFront: "pictures/TTP.jpg",
-    coverBack: "pictures/TippingPointBack.jpg",
+    coverImage: "Pictures/TTP.jpg",
+    coverFront: "Pictures/TTP.jpg",
+    coverBack: "Pictures/TippingPointBack.jpg",
     spine: "pictures/tppingPointSpine.jpg",
     dateRead: "2023-04",
     genre: "Psychology",
@@ -319,8 +319,8 @@ const booksData = [
     title: "Overcoming Anxiety, Worry, and Fear",
     author: "Greory L. Jantz",
     abbrev: "OAWF",
-    coverImage: "pictures/OAWF.jpg",
-    coverFront: "pictures/OAWF.jpg",
+    coverImage: "Pictures/OAWF.jpg",
+    coverFront: "Pictures/OAWF.jpg",
     coverBack: "",
     spine: "",
     dateRead: "2023-05",
@@ -476,6 +476,81 @@ const booksData = [
       intro: "A comprehensive guide to value investing and financial wisdom.",
       favoriteQuote: "`The intelligent investor is a realist who sells to optimists and buys from pessimists.`",
       sections: []
+    }
+  },
+
+   {
+  id: 9,
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    abbrev: "ABHOT",
+    coverImage: "Pictures/ABHOT.jpg",
+    coverFront: "Pictures/ABHOT.jpg",
+    coverBack: "Pictures/ABHOTback.jpg",
+    spine: "Pictures/ABHOTspine.jpg",
+    dateRead: "2023-06",
+    genre: "Science",
+    summary: {
+      intro: "An exploration of the universe, time, and the nature of reality.",
+      favoriteQuote: "`Only time (whatever that may be) will tell`",
+      sections: [
+        {
+          title: "Our Picture of the Universe",
+          content: `An overview of the historical development of our understanding of the universe, from ancient cosmologies to modern scientific theories.`
+        },
+        {
+          title: "Space and Time",
+          content: `An exploration of the concepts of space and time, including Einstein's theory of relativity and its implications for our understanding of the universe.`
+        },
+        {
+          title: "The Expanding Universe",
+          content: `A discussion of the evidence for the expanding universe, including the Big Bang theory and the discovery of cosmic microwave background radiation.`
+        },
+        {
+          title: "The Uncertainty Principle",
+          content: `An examination of black holes, their properties, and their significance in astrophysics.`
+        },
+        {
+          title: "Elementary Particles and Forces of Nature",
+          content: `An overview of the fundamental particles and forces that govern the behavior of matter and energy in the universe.`
+        },
+        {
+          title: "Black Holes",
+          content: `An exploration of the uncertainty principle and its implications for our understanding of the behavior of particles at the quantum level.`
+        },
+        {
+          title: "Black Holes Ain't So Black",
+          content: `An exploration of the uncertainty principle and its implications for our understanding of the behavior of particles at the quantum level.`
+        },
+        {
+          title: "The Origin and Fate of the Universe",
+          content: `A discussion of various theories regarding the origin and ultimate fate of the universe, including the Big Bang and potential scenarios for its future evolution.`
+        },
+        {
+          title: "The Arrow of Time",
+          content: `An examination of the concept of time's directionality, entropy, and the implications for our understanding of the universe's past and future.`
+        },
+        {
+          title: "The Unification of Physics",
+          content: `An exploration of ongoing efforts to unify the fundamental forces of nature into a single theoretical framework, including discussions of string theory and quantum gravity.`
+        },
+        {
+          title: "Conclusion",
+          content: `A reflection on the current state of our understanding of the universe and the ongoing quest for knowledge in cosmology and theoretical physics.`
+        },
+        {
+          title: "Albert Einstein",
+          content: `A brief biography of Albert Einstein, his contributions to physics, and his impact on our understanding of the universe.`
+        },
+        {
+          title: "Isaac Newton",
+          content: `A brief biography of Isaac Newton, his contributions to physics and mathematics, and his impact on our understanding of the universe.`
+        },
+        {
+          title: "Galileo Galilei",
+          content: `A list of recommended books and articles for readers interested in exploring the topics discussed in A Brief History of Time in greater depth.`
+        }
+      ]
     }
   }
 ];
