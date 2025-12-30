@@ -1,22 +1,3 @@
-# 93books - Refactored & Modernized 🌙📚
-
-## What Changed?
-
-### ❌ Old Way (What You Had)
-- Separate HTML file for each book (HTWFIP.html, TPON.html, etc.)
-- Separate CSS file for each book (HTWFIP.css, TPON.css, etc.)
-- jQuery dependency for simple accordion
-- Hardcoded book-1 through book-6 divs
-- Lots of duplicate code
-
-### ✅ New Way (What You Have Now)
-- **One** data file for all 50 books (`books-data.js`)
-- **One** template page for all books (`book.html`)
-- **One** CSS file for all book pages (`book-page.css`)
-- No jQuery - pure vanilla JavaScript
-- Dynamic grid that auto-adjusts
-- Easy to maintain and scale
-
 ## File Structure
 
 ```
@@ -56,51 +37,5 @@ Just edit `books-data.js` and add a new entry:
     ]
   }
 }
-```
 
-**That's it!** The book will automatically:
-- Show up on the index page
-- Have its own working page at `book.html?id=7`
-- Include the 3D rotating book effect (if you provided the URLs)
-- Work with the accordion for sections
 
-## What Works Out of the Box
-
-✅ All 6 existing books are already in the data file
-✅ Rotating 3D book animation on individual pages
-✅ Click-to-expand accordion (no jQuery!)
-✅ Responsive grid layout
-✅ Starfield background animation
-✅ Navigation
-
-## To Use This
-
-1. Replace your old files with these new ones
-2. Keep your existing folders: `bookPics/`, `moonpics/`, `CSS/`
-3. Add your remaining 44 books to `books-data.js`
-4. Done!
-
-## Pro Tips
-
-- Leave `coverFront`, `coverBack`, and `spine` as empty strings (`""`) for books where you don't have the 3D cover URLs yet
-- You can use HTML in the `content` field (like `<strong>`, `<br>`, etc.)
-- The accordion sections are optional - leave the array empty if you just want the intro
-- Book IDs should be unique and sequential (1, 2, 3...)
-
-## Benefits of This Approach
-
-1. **Add books in seconds** - Just one entry in the data file
-2. **No code duplication** - One template handles everything
-3. **Easy to update** - Change styling in one place, affects all books
-4. **Modern JavaScript** - No jQuery dependency
-5. **Responsive** - Works on mobile automatically
-6. **Scalable** - Can easily handle 100+ books
-
-## Questions?
-
-The structure is straightforward:
-- `books-data.js` = Your database
-- `index.html` = Reads the database and creates the grid
-- `book.html` = Reads the URL parameter (`?id=X`) and displays that book
-
-That's it! 🚀

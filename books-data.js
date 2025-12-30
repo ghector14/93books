@@ -1,4 +1,3 @@
-// All your books in one place - just add entries here as you read new books
 const booksData = [
   {
     id: 1,
@@ -16,15 +15,104 @@ const booksData = [
       sections: [
         {
           title: "Fundamental Techniques in Handling People",
-          content: "Don't criticize, condemn, or complain. Give honest and sincere appreciation. Arouse in the other person an eager want."
+          content: `<strong>Don't criticize, condemn, or complain.</strong><br>
+          Criticism is futile because it puts people on the defensive and makes them justify themselves. It wounds pride, hurts their sense of importance, and creates resentment. Even hardened criminals don't blame themselves, they rationalize their actions. If criminals don't criticize themselves, why would normal people accept your criticism?
+          <br><br>
+          <strong>Give honest and sincere appreciation.</strong><br>
+          The only way to get people to do anything is by making them want to do it. The deepest urge in human nature is the desire to be important. People will work harder and do more for you if you make them feel important and appreciated.
+          Instead of condemning people, try to understand them. Figure out why they do what they do. This breeds sympathy, tolerance, and kindness. As the saying goes: "God himself does not propose to judge man until the end of his days" so why should you?
+          <br><br>
+          <strong>Arouse in the other person an eager want.</strong><br>
+          The only way to influence people is to talk about what they want and show them how to get it. Always remember that other people are interested in themselves, their wants, and their problems. To win someone to your way of thinking, first arouse in them an eager want.
+          Instead of talking about what you need, ask yourself: "How can I make this person want to do it?" Connect your request to their desires, their benefits, their interests. The world is full of people grabbing and self-seeking. The rare individual who unselfishly tries to serve others has an enormous advantage.
+`
         },
         {
           title: "Six Ways to Make People Like You",
-          content: "Become genuinely interested in other people. Smile. Remember that a person's name is to that person the sweetest sound. Be a good listener. Talk in terms of the other person's interests."
+          content: `<strong>Become genuinely interested in other people.</strong><br>
+          You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you. You can't win an argument. If you lose it, you lose it; and if you win it, you lose it. Instead, show respect for the other person's opinions. Never say "You're wrong."
+          <br><br>
+          <strong>Smile.</strong><br>
+          Actions speak louder than words, and a smile says, "I like you. You make me happy. I am glad to see you." A simple smile can brighten a person's day and open doors to friendship.
+          <br><br>
+          <strong>Remember that a person's name is to that person the sweetest and most important sound in any language.</strong><br>
+          Using someone's name in conversation shows that you value them as an individual. It creates a personal connection and makes them feel recognized and important.
+          <br><br>
+          <strong>Be a good listener. Encourage others to talk about themselves.</strong><br>
+          People love to talk about themselves and their interests. By being an attentive listener, you show that you care about what they have to say, which fosters trust and rapport.
+          <br><br>
+          <strong>Talk in terms of the other person's interests.</strong><br>
+          The royal road to a person's heart is to talk about the things they treasure most. Find out what interests them and engage in conversations around those topics.
+          <br><br>
+          <strong>Make the other person feel important.</strong><br>
+          The desire to feel important is one of the deepest human needs. By genuinely acknowledging and appreciating others, you fulfill this need and build strong relationships.
+          `
         },
         {
           title: "Win People to Your Way of Thinking",
-          content: "Avoid arguments. Show respect for the other person's opinions. If you are wrong, admit it quickly. Get the other person saying 'yes, yes' immediately."
+          content: `<strong>The only way to get the best of an argument is to avoid it.</strong><br>
+          Avoid arguments as they often lead to resentment and damaged relationships. Instead, seek common ground and understanding.
+          <br><br>
+          <strong>Show respect for the other person's opinions. Never say, "You're wrong."</strong><br>
+          People are more receptive to your ideas when they feel respected. Acknowledge their viewpoints before presenting your own.
+          <br><br>
+          <strong>If you are wrong, admit it quickly and emphatically.</strong><br>
+          Taking responsibility for your mistakes builds trust and credibility. It shows humility and a willingness to learn.
+          <br><br>
+          <strong>Begin in a friendly way.</strong><br>
+          A warm and friendly approach sets a positive tone for any interaction. It opens the door for cooperation and understanding.
+          <br><br>
+          <strong>Get the other person saying "yes, yes" immediately.</strong><br>
+          Start conversations with questions or statements that the other person will agree with. This creates a positive momentum and makes them more likely to agree with you later.
+          <br><br>
+          <strong>Let the other person do a great deal of the talking.</strong><br>
+          People appreciate being heard. Encourage them to share their thoughts and feelings, which helps you understand their perspective better.
+          <br><br>
+          <strong>Let the other person feel that the idea is theirs.</strong><br>
+          People are more committed to ideas they believe they originated. Guide conversations in a way that allows others to take ownership of the solutions.
+          <br><br>
+          <strong>Try honestly to see things from the other person's point of view.</strong><br>
+          Empathy is key to effective communication. Understanding others' perspectives helps you connect with them and find common ground.
+          <br><br>
+          <strong>Be sympathetic with the other person's ideas and desires.</strong><br>
+          Acknowledge and validate others' feelings and aspirations. This builds rapport and trust.
+          <br><br>
+          <strong>Appeal to the nobler motives.</strong><br>
+          Inspire others by appealing to their higher values and ideals. People want to feel that they are contributing to something meaningful.
+          <br><br>
+          <strong>Dramatize your ideas.</strong><br>
+          Present your ideas in a vivid and engaging way. Use stories, examples, and visuals to capture attention and make your points memorable.
+          <br><br>
+          <strong>Throw down a challenge.</strong><br>
+          People are motivated by challenges that stimulate their competitive spirit. Frame tasks as opportunities to excel and achieve greatness.
+          `
+        },
+        {
+          title: "Be a leader: How to Change People Without Giving Offense or Arousing Resentment",
+          content: `<strong>Start with Praise.</strong><br>
+            Begin any criticism by acknowledging what someone does well. This opens them up to hearing feedback rather than becoming defensive.
+            <br><br>
+            <strong>Be indirect.</strong><br>
+             Point out mistakes subtly rather than bluntly. Say "You did great on X, and if you'd also consider Y..." instead of "You messed up Y."
+            <br><br>
+            <strong>Talk about your own mistakes first.</strong><br>
+            Share your own errors before criticizing others. This builds rapport and shows humility, and makes criticism easier to accept.
+            <br><br>
+            <strong>Ask questions instead of giving direct orders.</strong><br>
+            Frame requests as questions to give people a sense of control. For example, "Could you help me with..." rather than "Do this..."
+            <br><br>
+            <strong>Let the other person save face.</strong><br>
+            Avoid embarrassing or humiliating others when pointing out faults. Preserve their dignity to maintain goodwill.
+            <br><br>
+            <strong>Praise the slightest improvement and praise every improvement.</strong><br>
+            Recognize and celebrate even small progress. This encourages continued effort and builds confidence.
+            <br><br>
+            <strong>Give the other person a fine reputation to live up to.</strong><br>
+            Set high expectations by expressing confidence in someone's abilities. This motivates them to meet those standards.
+            <br><br>
+            <strong>Use encouragement. Make the fault seem easy to correct.</strong><br>
+            Emphasize that mistakes are fixable and express belief in the person's capacity to improve. This fosters a growth mindset.
+            `
         }
       ]
     }
@@ -94,8 +182,8 @@ const booksData = [
     abbrev: "TTP",
     coverImage: "pictures/TTP.jpg",
     coverFront: "pictures/TTP.jpg",
-    coverBack: "",
-    spine: "",
+    coverBack: "pictures/TippingPointBack.jpg",
+    spine: "pictures/tppingPointSpine.jpg",
     dateRead: "2023-04",
     genre: "Psychology",
     summary: {
@@ -124,21 +212,34 @@ const booksData = [
     title: "The 7 Habits of Highly Effective People",
     author: "Stephen Covey",
     abbrev: "7H",
-    coverImage: "pictures/7H.jpg",
-    coverFront: "",
-    coverBack: "",
-    spine: "",
+    coverImage: "Pictures/7H.jpg",
+    coverFront: "Pictures/7H.jpg",
+    coverBack: "Pictures/7habitsBack.jpg",
+    spine: "Pictures/7habitsSpine.jpg",
     dateRead: "2023-06",
     genre: "Self-help",
     summary: {
       intro: "A principle-centered approach for solving personal and professional problems.",
       sections: []
     }
+  },
+  {
+    id: 7,
+    title: "Outliers: The Story of Success",
+    author: "Malcolm Gladwell",
+    abbrev: "OL",
+    coverImage: "Pictures/outliers.jpg",
+    coverFront: "Pictures/outliers.jpg",
+    coverBack: "Pictures/.jpg",
+    spine: "Pictures/.jpg",
+    dateRead: "2023-06",
+    genre: "Self-help",
+    summary: {
+      intro: "What makes high-achievers different? The 10,000 hour rule and cultural advantages.",
+      sections: []
+    }
   }
   
-  // ADD YOUR REMAINING 44 BOOKS HERE
-  // Just copy the structure above and fill in your book details
-  // For books without the 3D effect yet, leave coverFront, coverBack, and spine as empty strings
 ];
 
 // Export for use in other files
