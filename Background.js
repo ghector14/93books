@@ -259,4 +259,27 @@ function start() {
     paused = true;
   };
   
+  // Handle window resize
+  window.addEventListener('resize', function() {
+    var oldWidth = width;
+    var oldHeight = height;
+    
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
+    
+    // Scale existing star positions proportionally
+    var scaleX = width / oldWidth;
+    var scaleY = height / oldHeight;
+    
+    stars.forEach(function(star) {
+      star.x *= scaleX;
+      star.y *= scaleY;
+    });
+    
+    shootingStars.forEach(function(star) {
+      star.x *= scaleX;
+      star.y *= scaleY;
+    });
+  });
+  
 }

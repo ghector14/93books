@@ -12,6 +12,7 @@ const booksData = [
     genre: "Self-help",
     summary: {
       intro: "Dale Carnegie's timeless classic on human relations and influence.",
+      favoriteQuote: "`You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you.`",
       sections: [
         {
           title: "Fundamental Techniques in Handling People",
@@ -130,21 +131,25 @@ const booksData = [
     genre: "Psychology",
     summary: {
       intro: "You Can Be Happy No Matter What was written by bestselling author and nationally known stress management consultant Dr. Richard Carlson.",
+      favoriteQuote: "`Your thoughts, not your circumstances, determine how you feel.`",
       sections: [
         {
           title: "PART 1 – The Principles",
           content: `
-            <strong>ONE: The principle of thought</strong><br><br>
+            <strong>ONE: The principle of thought</strong><br>
             Understanding the nature of thought is the foundation of living a happy and functional life. Thinking goes on whether we want it or not and it's an impersonal element of our existence. Your thoughts, not your circumstances determine how you feel. The same circumstance can and will mean entirely different things to different people. The significance of everything that happens in your life is determined by your thought system.
             <br><br>
-            <strong>TWO: The principle of mood</strong><br><br>
+            <strong>TWO: The principle of mood</strong><br>
             When you are in a high mood, life looks good. You have perspective and common sense. In low moods, we lose our ability to listen, and our perspective flies out the window. Moods are part of being a human being and you can't avoid them. The only feelings you will ever experience in a low mood are negative; thus it makes no sense to trust or act on those feelings.
             <br><br>
-            <strong>THREE: The principle of separate realities</strong><br><br>
+            <strong>THREE: The principle of separate realities</strong><br>
             Each thought system is unique to itself. Our parents, backgrounds, interpretations, memory, circumstances- many factors play roles in determining our thought system. When we expect to see things differently, the compassion we have for ourselves and others rises dramatically.
             <br><br>
-            <strong>FOURTH: The principle of feelings</strong><br><br>
+            <strong>FOURTH: The principle of feelings</strong><br>
             Your feelings are a foolproof guidance system that helps you navigate through life. Your feelings let you know when you are off track and headed toward unhappiness and conflict. Negative feelings will disappear quickly enough if we simply let them alone.
+            <br><br>
+            <strong>FIFTH: The principle of the present moment</strong><br>
+            The present moment is all there is. The past is gone and the future hasn't arrived yet. The only time you can experience life is right now, in this present moment. The more you live in the present moment, the happier you will be.
           `
         },
         {
@@ -167,10 +172,47 @@ const booksData = [
     genre: "Spirituality",
     summary: {
       intro: "A guide to spiritual enlightenment and the importance of living in the present moment.",
+      favoriteQuote: "`Time is an illusion, and the only reality is the eternal present moment; your future worries or plans only exist as thoughts now, and when tomorrow arrives, it becomes this now, emphasizing that all power lies in fully experiencing and accepting the current moment, as past and future are mental concepts, not real places.`",
       sections: [
         {
-          title: "Key Concepts",
-          content: "The present moment is all you ever have. Time is an illusion. The ego lives in the past and future, creating suffering."
+          title: "Chapter 1: You Are Not Your Mind",
+          content: `The mind is a powerful tool, but it can also be a source of suffering. By identifying with our thoughts and emotions, we create a false sense of self that leads to anxiety, stress, and unhappiness. To find true peace and happiness, we must learn to observe our thoughts without judgment and recognize that we are not our minds.`
+        },
+        {
+          title: "Chapter 2: Consciousness: The Way Out of Pain",
+          content: `Pain is an inevitable part of life, but we can learn to transcend it by becoming more conscious of our thoughts and emotions. By observing our pain without resistance or judgment, we can begin to dissolve it and find a deeper sense of peace and happiness.`
+        },
+        {
+          title: "Chapter 3: Moving Deeply into the Now",
+          content: `The present moment is all we have, yet we often find ourselves lost in thoughts about the past or future. By learning to focus our attention on the present moment, we can experience a deeper sense of peace and happiness. This requires us to let go of our attachment to the past and future and embrace the present moment fully.`
+        },
+        {
+          title: "Chapter 4: Mind Strategies for Avoiding the Now",
+          content: `The mind has a tendency to avoid the present moment by dwelling on the past or worrying about the future. By recognizing these patterns and learning to let go of them, we can cultivate a deeper sense of presence and awareness in our lives.`
+        },
+        {
+          title: "Chapter 5: The State of Presence",
+          content: `Presence is a state of being fully aware and engaged in the present moment. By cultivating this state of presence, we can experience a deeper sense of peace, joy, and fulfillment in our lives. This requires us to let go of our attachment to the ego and embrace a more expansive sense of self.`
+        },
+        {
+          title: "Chapter 6: The Inner Body",
+          content: `The body is a powerful tool for cultivating presence and awareness. By learning to connect with our inner body and feel its sensations, we can deepen our sense of presence and cultivate a greater sense of peace and happiness.`
+        },
+        {
+          title: "Chapter 7: Portals into the Unmanifested",
+          content: `The unmanifested is the source of all creation and the ultimate reality. By learning to access this realm through meditation and other spiritual practices, we can experience a deeper sense of peace, joy, and fulfillment in our lives.`
+        },
+        {
+          title: "Chapter 8: Enlightened Relationships",
+          content: `Relationships can be a source of great joy and fulfillment, but they can also be a source of pain and suffering. By cultivating presence and awareness in our relationships, we can create deeper connections with others and experience a greater sense of love and compassion.`
+        },
+        {
+          title: "Chapter 9: Beyond Happiness and Unhappiness There Is Peace",
+          content: `True peace and happiness come from within, and cannot be found through external circumstances. By cultivating a deeper sense of presence and awareness, we can experience a greater sense of peace and fulfillment in our lives, regardless of our external circumstances.`
+        },
+        {
+          title: "Chapter 10: The Meaning of Surrender",
+          content: `Surrender is the key to finding true peace and happiness in life. By letting go of our attachment to the ego and embracing the present moment fully, we can experience a deeper sense of peace, joy, and fulfillment in our lives. Surrender requires us to trust in the flow of life and let go of our need for control.`
         }
       ]
     }
@@ -188,6 +230,7 @@ const booksData = [
     genre: "Psychology",
     summary: {
       intro: "How little things can make a big difference in creating social epidemics.",
+      favoriteQuote: "`The Tipping Point is that magic moment when an idea, trend, or social behavior crosses a threshold, tips, and spreads like wildfire.`",
       sections: [
           {
           title: "The three rules of epidemics",
@@ -273,17 +316,17 @@ const booksData = [
   },
   {
     id: 5,
-    title: "Outliers: The Story of Success",
-    author: "Malcolm Gladwell",
+    title: "Overcoming Anxiety, Worry, and Fear",
+    author: "Greory L. Jantz",
     abbrev: "OAWF",
     coverImage: "pictures/OAWF.jpg",
-    coverFront: "",
+    coverFront: "pictures/OAWF.jpg",
     coverBack: "",
     spine: "",
     dateRead: "2023-05",
     genre: "Self-help",
     summary: {
-      intro: "What makes high-achievers different? The 10,000 hour rule and cultural advantages.",
+      intro: "A Christian approach to managing and overcoming anxiety, worry, and fear.",
       sections: []
     }
   },
@@ -300,7 +343,61 @@ const booksData = [
     genre: "Self-help",
     summary: {
       intro: "A principle-centered approach for solving personal and professional problems.",
-      sections: []
+      favoriteQuote: "`The key is not to prioritize what's on your schedule, but to schedule your priorities.`",
+      sections: [
+        {
+          title: "Part 1: Paradigms and Principles",
+          content: `<strong>Inside-Out Approach</strong><br>
+          True change starts from within. By focusing on personal growth and character development, we can create lasting change in our lives and relationships.
+          <br><br>
+          <strong>Character Ethic vs. Personality Ethic</strong><br>
+          The Character Ethic emphasizes the importance of integrity, humility, and other core values, while the Personality Ethic focuses on superficial traits and techniques. Covey argues that true effectiveness comes from developing strong character rather than relying on external techniques.
+          <br><br>
+          <strong>Primary and Secondary Greatness</strong><br>
+          Primary greatness is achieved through character development and living by principles, while secondary greatness is achieved through external success and recognition. Covey emphasizes the importance of focusing on primary greatness for true fulfillment and effectiveness.
+          <br><br>
+          <strong>The power of a paradigm</strong><br>
+          Our perceptions and interpretations of the world shape our reality. By shifting our paradigms, we can change our behavior and outcomes.
+          <br><br>
+          <strong>The Power of a Paradigm Shift</strong><br>
+          A paradigm shift is a fundamental change in our worldview that can lead to new insights and behaviors. By embracing new paradigms, we can break free from limiting beliefs and achieve greater effectiveness.
+          </br><br>
+          <strong>Seeing and Being</strong><br>
+          Our perceptions shape our reality, and by changing how we see the world, we can change our experiences and outcomes.
+        </br><br>
+          <strong>The Golden Egg Example</strong><br>
+          The story of the goose that laid golden eggs illustrates the importance of balancing production and production capability. By nurturing our resources and relationships, we can achieve sustainable success.
+          `},
+        {
+          title: "Part 2: Private Victory",
+          content: `<strong>Habit 1: Be Proactive</strong><br>
+          Take responsibility for your life and actions. Focus on what you can control and influence, rather than reacting to external circumstances.
+          <br><br>
+          <strong>Habit 2: Begin with the End in Mind</strong><br>
+          Define your personal values and goals. Create a clear vision of what you want to achieve in life and align your actions with that vision.
+          <br><br>
+          <strong>Habit 3: Put First Things First</strong><br>
+          Prioritize your time and energy on activities that align with your values and goals. Focus on important tasks rather than urgent but less important ones.
+          `},
+        {
+          title: "Part 3: Public Victory",
+          content: `<strong>Habit 4: Think Win-Win</strong><br>
+          Seek mutual benefit in all interactions. Focus on creating win-win solutions that satisfy all parties involved.
+          <br><br>
+          <strong>Habit 5: Seek First to Understand, Then to be Understood</strong><br>
+          Listen carefully to others and understand their perspectives before attempting to influence them.
+          <br><br>
+          <strong>Habit 6: Synergize</strong><br>
+          Combine the strengths of different people to achieve results that are greater than the sum of individual efforts.
+          `
+        },
+        {
+          title: "Part 4: Renewal",
+          content: `<strong>Habit 7: Sharpen the Saw</strong><br>
+          Continuously improve and renew yourself in four areas: physical, mental, emotional/social, and spiritual. This habit emphasizes the importance of self-care and lifelong learning.
+          `
+        }
+      ]
     }
   },
   {
@@ -310,16 +407,77 @@ const booksData = [
     abbrev: "OL",
     coverImage: "Pictures/outliers.jpg",
     coverFront: "Pictures/outliers.jpg",
-    coverBack: "Pictures/.jpg",
-    spine: "Pictures/.jpg",
+    coverBack: "Pictures/OutliersBack.jpg",
+    spine: "Pictures/OutliersSpine.jpg",
     dateRead: "2023-06",
     genre: "Self-help",
     summary: {
       intro: "What makes high-achievers different? The 10,000 hour rule and cultural advantages.",
+      favoriteQuote: "`Practice isn't the thing you do once you're good. It's the thing you do that makes you good.`",
+      sections: [
+        {
+          title: "Part 1: Opportunity",
+          content: `<strong>The Matthew Effect</strong><br>
+          Success often depends on being given opportunities that others are not. Small advantages can accumulate over time, leading to significant differences in outcomes.early, often small advantages compound, making the "rich get richer" and creating outliers, while disadvantages compound for others, all driven by systems (like birth dates or education) rather than just individual merit, showing how initial boosts (like being born in the right month for hockey) lead to more opportunities, better coaching, and amplified success, turning small edges into huge gaps.  
+
+          <br><br>
+          <strong>The 10,000-Hour Rule</strong><br>
+          To achieve mastery in any field, one must practice for approximately 10,000 hours. This level of practice allows individuals to develop the skills and expertise necessary for success.
+          <br><br>
+          <strong>The Trouble With Geniuses - Part 1</strong><br>
+          While intelligence is important, it is not the sole determinant of success. Other factors, such as social skills and practical intelligence, play a crucial role in achieving success.
+          <br><br>
+          <strong>The Trouble With Geniuses - Part 2</strong><br>
+          Practical intelligence, or "street smarts," is often more important than raw intelligence in achieving success. The ability to navigate social situations and understand unspoken rules can be a significant advantage.
+          <br><br>
+          <strong>The Three Lessons of Joe Flom</strong><br>
+          Joe Flom's success as a lawyer can be attributed to three key factors: timing, cultural background, and a willingness to work hard. His story illustrates how these factors can contribute to success in unexpected ways.
+          <br><br>
+          `
+        },
+        {
+          title: "Part 2: Legacy",
+          content: `<strong>Harlan, Kentucky</strong><br>
+          The culture of honor in Harlan, Kentucky, has deep historical roots that continue to influence behavior today. This culture emphasizes personal reputation and the importance of defending one's honor, often through violence.
+          <br><br>
+          <strong>The Ethnic Theory of Plane Crashes</strong><br>
+          Cultural communication styles can significantly impact safety and performance in high-stakes environments. In aviation, differences in communication norms among crew members from different cultural backgrounds have contributed to misunderstandings and accidents.
+          <br><br>
+          <strong>Rice Paddies and Math Tests</strong><br>
+          The cultural legacy of rice farming in East Asia has contributed to a strong work ethic and emphasis on perseverance, which in turn has led to higher academic achievement in subjects like mathematics.
+          <br><br>
+          <strong>Marita's Bargain</strong><br>
+          Access to quality education and supportive learning environments can help overcome socioeconomic disadvantages. Programs that provide additional resources and support can lead to significant improvements in academic performance for disadvantaged students.
+          <br><br>
+          `
+        },
+        {
+          title: "Epilogue",
+          content: `<strong>A Jamaican Story</strong><br>
+          Malcolm Gladwell's Outliers epilogue, "A Jamaican Story," summarizes his own family's success by tracing his mother's path to opportunity in Jamaica, highlighting how historical context, British educational reforms, cultural legacy (including his grandmother's advantageous skin tone), and personal sacrifices (like borrowing money from a Chinese grocer) created the perfect circumstances for her to get a great education and move to England, proving his core thesis that outliers aren't just self-made but beneficiaries of luck, timing, culture, and community
+          `
+        }
+      ]
+    }
+  },
+  
+  {
+  id: 8,
+    title: "The Intelligent Investor",
+    author: "Benjamin Graham",
+    abbrev: "TII",
+    coverImage: "Pictures/TII.jpg",
+    coverFront: "Pictures/TII.jpg",
+    coverBack: "Pictures/TIIback.jpg",
+    spine: "Pictures/TIIspine.jpg",
+    dateRead: "2023-06",
+    genre: "Finance",
+    summary: {
+      intro: "A comprehensive guide to value investing and financial wisdom.",
+      favoriteQuote: "`The intelligent investor is a realist who sells to optimists and buys from pessimists.`",
       sections: []
     }
   }
-  
 ];
 
 // Export for use in other files

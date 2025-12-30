@@ -46,6 +46,11 @@
         <div class="summary-intro">
             <p id="summary-intro-text"></p>
         </div>
+
+        <div id="favorite-quote-section" style="display: none;">
+            <h3 class="quote-header">Favorite Quote</h3>
+            <blockquote id="favorite-quote-text"></blockquote>
+        </div>
         
         <div id="accordion" class="accordion">
             <!-- Accordion sections will be inserted here -->
@@ -74,6 +79,10 @@
             document.getElementById('book-author').textContent = `by ${book.author}`;
             document.getElementById('summary-intro-text').innerHTML = book.summary.intro;
             
+            if (book.summary.favoriteQuote) {
+                document.getElementById('favorite-quote-section').style.display = 'block';
+                document.getElementById('favorite-quote-text').textContent = book.summary.favoriteQuote;
+            }
             // Set 3D book covers (if available)
             if (book.coverFront) {
                 const frontDiv = document.querySelector('.front');
