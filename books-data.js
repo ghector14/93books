@@ -188,7 +188,87 @@ const booksData = [
     genre: "Psychology",
     summary: {
       intro: "How little things can make a big difference in creating social epidemics.",
-      sections: []
+      sections: [
+          {
+          title: "The three rules of epidemics",
+          content: `<strong>The law of the few.</strong><br>
+          A small number of people are responsible for starting and spreading epidemics. These individuals can be categorized into three types: Connectors, Mavens, and Salesmen.<br>
+          <br>
+          <strong>The stickiness factor.</strong><br>
+          The specific content of a message that makes it memorable and impactful. Small changes in the presentation of a message can significantly increase its effectiveness.<br>
+          <br>
+          <strong>The power of context.</strong><br>
+          The environment and conditions that influence people's behavior and receptiveness to change. Small changes in context can lead to significant shifts in behavior.`
+
+        },
+          {
+          title: "The law of the few",
+          content: `<strong>Connectors, Mavens, and Salesmen</strong><br>
+          Connectors are individuals who have a vast network of social connections and can link different groups together.<br>
+          Mavens are knowledgeable individuals who accumulate information and share it with others.<br>
+          Salesmen are persuasive individuals who have the ability to influence others' decisions and behaviors.
+          `
+        },
+          {
+          title: "The stickiness factor",
+          content: `<strong>Sesame street</strong><br>
+          The way a message is presented can significantly impact its effectiveness. Small changes in wording, presentation, or delivery can make a message more memorable and influential.
+          <br><br>
+          <strong>Blue's Clues</strong><br>
+          The show's format, repetition, and interactive elements made it highly engaging and educational for young children.
+          <br><br>
+          <strong>Commercials</strong><br>
+          Advertisers use various techniques to make their messages stick in consumers' minds, such as catchy jingles, memorable slogans, and emotional appeals.
+          <br><br>
+          <strong>Educational Virus</strong><br>
+          The concept of "educational viruses" refers to ideas or messages that spread rapidly and effectively through a population, much like a virus. These ideas are often memorable and impactful, leading to widespread adoption and influence.
+          `
+        },
+          {
+          title: "The power of context - Part One",
+          content: `<strong>The Bernie Goetz Story</strong><br>
+          In 1984, Bernie Goetz shot four young Black men on a New York City subway after they asked him for five dollars. He killed three and paralyzed one. At the time, with crime rates skyrocketing, many New Yorkers celebrated Goetz as a hero who "stood up" to criminals.
+          <br><br>
+          <strong>The Crime Drop Mystery:</strong><br>
+          By the 1990s, New York's crime rate plummeted faster than anywhere else in the country. This dramatic drop puzzled experts, who struggled to explain the phenomenon. Various theories were proposed, including increased policing and economic improvements, but none fully accounted for the scale of the decline.
+          <br><br>
+          <strong>The Broken Windows Theory:</strong><br>
+          Sociologists James Q. Wilson and George L. Kelling introduced the "Broken Windows Theory," which posited that maintaining urban environments to prevent small crimes (like vandalism and public disorder) helps create an atmosphere of order and lawfulness, thereby preventing more serious crimes.
+          <br><br>
+          <strong>Implementation in New York City:</strong><br>
+          Under Mayor Rudy Giuliani and Police Commissioner William Bratton, New York City adopted policies based on the Broken Windows Theory. They focused on cracking down on minor offenses, such as fare evasion and public drinking, to create a sense of order. This approach, combined with other strategies like increased police presence and community policing, contributed to the significant reduction in crime rates.
+          <br><br>
+          <strong>The Key Insight:</strong><br>
+          Humans are "exquisitely sensitive" to changes in circumstance. Goetz himself said that in the ugly, graffiti-ridden subway, it was difficult to be sane, and he behaved "like a rat" because he was in a "rat hole."
+          <br><br>
+          <strong>The Main Argument:</strong><br>
+          Small changes in environment can lead to significant changes in behavior. By addressing minor infractions and maintaining order, communities can create a sense of safety and discourage more serious crimes.
+          `
+        },
+          {
+          title: "The power of context - Part Two",
+          content: `<strong>The Magic Number One Hundred and Fifty - Dunbar's Number</strong><br>
+          Anthropologist Robin Dunbar proposed that humans can maintain stable social relationships with approximately 150 individuals. This number is based on the size of the human brain and the cognitive limits of social interaction.
+          <br><br>
+          <strong>Evidence from History and Anthropology:</strong><br>
+          Dunbar's research showed that traditional hunter-gatherer societies, military units, and even modern organizations often have group sizes around 150. This number appears to be a natural limit for effective social bonding and communication.
+          <br><br>
+          <strong>Implications for Communities:</strong><br>
+          The concept of Dunbar's Number suggests that communities and organizations function best when they are kept to a manageable size. In smaller groups, individuals can form stronger bonds, communicate more effectively, and maintain social cohesion.
+          <br><br>
+          <strong>The Key Insight:</strong><br>
+          Social connections are crucial for human well-being, and there are natural limits to how many meaningful relationships one can maintain.
+          <br><br>
+          <strong>The Main Argument:</strong><br>
+          By recognizing and respecting the limits of human social capacity, communities and organizations can create environments that promote stronger relationships, better communication, and overall cohesion.
+          `
+        },
+           {
+          title: "Conclusion",
+          content: ` The Tipping Point illustrates how small changes can create significant social impact. By understanding the roles of key individuals, the importance of message presentation, and the influence of context, we can better navigate and influence social dynamics.
+          `
+        },
+      ]
     }
   },
   {
