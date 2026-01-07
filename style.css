@@ -67,7 +67,7 @@ nav a {
 #canvas {
     background: linear-gradient(143deg,#020303 1%, rgb(1, 30, 53) 48%, rgb(45, 65, 61) 99%),linear-gradient(#1e2652,#1e2652);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -106,29 +106,73 @@ nav a {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .books-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        padding: 1rem;
-        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    .book-container {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    .book {
+        width: 100%;
+        height: auto;
+        max-width: 140px;
+    }
+    
+    .book img {
+        width: 100%;
+        height: auto;
     }
     
     .intro h1 {
-        font-size: 1.8rem;
-        padding: 3rem 1rem;
+        font-size: 1.5rem;
+        padding: 2rem 0.5rem;
     }
     
     nav .links {
-        font-size: 1.5rem;
-        margin: 0 15px;
+        font-size: 1.2rem;
+        margin: 0 10px;
     }
     
     #main {
-        font-size: 1rem;
-        margin: 8px;
+        font-size: 0.9rem;
+        margin: 5px;
     }
 }
 
 @media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+    
     .books-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+        padding: 0.5rem;
+        width: 100%;
+    }
+    
+    .book-container {
+        max-width: 120px;
+        padding: 5px;
+    }
+    
+    .book {
+        max-width: 110px;
+    }
+    
+    .intro h1 {
+        font-size: 1.3rem;
+        padding: 1.5rem 0.5rem;
     }
 }

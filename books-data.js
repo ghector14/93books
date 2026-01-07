@@ -592,6 +592,23 @@ const booksData = [
         }
       ]
     }
+  },
+    {
+  id: 10,
+    title: "The Power Of Habit",
+    author: "Charles Duhigg",
+    abbrev: "TPOH",
+    coverImage: "Pictures/ThePowerOfHabit.jpg",
+    coverFront: "Pictures/ThePowerOfHabit.jpg",
+    coverBack: "Pictures/ThePowerOfHabitBack.jpg",
+    spine: "Pictures/ThePowerOfHabitSpine.jpg",
+    dateRead: "2023-06",
+    genre: "Self-help",
+    summary: {
+      intro: "An exploration of the science behind habit formation and how to change habits for personal and professional success.",
+      favoriteQuote: "`For habits to permanently change, people must believe that change is feasible.`",
+      sections: []
+    }
   }
 ];
 
