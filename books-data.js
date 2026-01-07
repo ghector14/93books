@@ -554,7 +554,7 @@ const booksData = [
           To measure a particle's position, you must shine light on it. Higher frequency light gives more accuracy but applies more energy to the particle, changing its position or velocity.
           <br><br>
           <strong>Quantum Mechanics:</strong><br>
-          Heisenberg and Schrödinger developed quantum mechanics, where predictions consist of probabilities rather than certainties. Chance plays a part in the universe. Einstein objected: "God does not play dice."
+          Heisenberg and Schrödinger developed quantum mechanics, where predictions consist of probabilities rather than certainties. Chance plays a part in the universe. Einstein objected: "God does not play dice. Quantum mechanics is the physics of the super tiny (atoms and smaller), describing how particles like electrons and photons behave in weird ways, acting as both waves and particles (wave-particle duality) and existing in multiple states at once (superposition) until measured, unlike our everyday world where things are definite."
           <br><br>
           <strong>The End of Determinism:</strong><br>
           This overturned the idea of a completely deterministic universe. You cannot predict the future with certainty if you can't accurately measure the present.
@@ -623,11 +623,62 @@ const booksData = [
       dateRead: "2025-08",
       genre: "Running",
       summary: {
-        intro: "An exploration of the science behind habit formation and how to change habits for personal and professional success.",
-        favoriteQuote: "`For habits to permanently change, people must believe that change is feasible.`",
+        intro: "A memoir and manifesto that critiques the sports system's failure to support female athletes, arguing it's built for men and harms girls through injury, eating disorders, and mental health struggles.",
+        favoriteQuote: "`When you realize failing doesn't make you a failure, you give yourself permission to try all sorts of things.`",
         sections: []
       }
-    }
+    },
+    {
+      id: 12,
+        title: "Ask and It Is Given",
+        author: "Esther & Jerry Hicks",
+        abbrev: "AAIIG",
+        coverImage: "Pictures/AAIIG.jpg",
+        coverFront: "Pictures/AAIIG.jpg",
+        coverBack: "Pictures/AAIIGBack.jpg",
+        spine: "Pictures/AAIIGSpine.jpg",
+        dateRead: "2025-08",
+        genre: "Spiritual",
+        summary: {
+          intro: "Ask and It Is Given, the pivotal manifestation and law of attraction book by Esther and Jerry Hicks, presents the inspirational teachings of the nonphysical entity Abraham, to help you learn how to manifest your desires so that you’re living the joyous and fulfilling life you deserve.",
+          favoriteQuote: "`With enough attention to anything, the essence of what you have been giving thought to will eventually become a physical manifestation.`",
+          sections: []
+        }
+      },
+      {
+        id: 13,
+          title: "Acres of Diamonds",
+          author: "Russell H. Conwell",
+          abbrev: "AoD",
+          coverImage: "Pictures/AoD.jpg",
+          coverFront: "Pictures/AoD.jpg",
+          coverBack: "Pictures/AoDBack.jpg",
+          spine: "Pictures/AoDSpine.jpg",
+          dateRead: "2024-08",
+          genre: "Money",
+          summary: {
+            intro: "Written in 1869, Acres of diamonds is about thinkning big things & doing them.",
+            favoriteQuote: "`He was contented because he was wealthy, and wealthy because he was contented.`",
+            sections: []
+          }
+        },
+        {
+          id: 14,
+            title: "Mans Search For Meaning",
+            author: "Viktor E. Frankl",
+            abbrev: "MSFM",
+            coverImage: "Pictures/MSFM.jpg",
+            coverFront: "Pictures/MSFM.jpg",
+            coverBack: "Pictures/MSFMBack.jpg",
+            spine: "Pictures/MSFMSpine.jpg",
+            dateRead: "2024-08",
+            genre: "Phylosophy",
+            summary: {
+              intro: "Viktor Frankl’s riveting account of his time in the Nazi concentration camps, and his insightful exploration of the human will to find meaning in spite of the worst adversity, has offered solace and guidance to generations of readers since it was first published in 1946.",
+              favoriteQuote: "`Ultimately, man should not ask what the meaning of his life is, but rather must recognize that it is he who is asked. In a word, each man is questioned by life; and he can only answer to life by answering for his own life; to life he can only respond by being responsible.`",
+              sections: []
+            }
+          }
 ];
 
 // Export for use in other files

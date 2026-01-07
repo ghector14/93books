@@ -92,12 +92,12 @@ function start() {
     ],
     starsAngle = 135,
     shootingStarSpeed = {
-      min: 5,
-      max: 5
+      min: 4,
+      max: 4
     },
     shootingStarOpacityDelta = 0.01,
     trailLengthDelta = 0.01,
-    shootingStarEmittingInterval = 4000,
+    shootingStarEmittingInterval = 42000,
     shootingStarLifeTime = 500,
     maxTrailLength = 300,
     starBaseRadius = 2,
