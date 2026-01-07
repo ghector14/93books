@@ -609,7 +609,25 @@ const booksData = [
       favoriteQuote: "`For habits to permanently change, people must believe that change is feasible.`",
       sections: []
     }
-  }
+  },
+
+  {
+    id: 11,
+      title: "Good For A Girl",
+      author: "Lauren Fleshamn",
+      abbrev: "GFAG",
+      coverImage: "Pictures/GFAG.jpg",
+      coverFront: "Pictures/GFAG.jpg",
+      coverBack: "Pictures/GFAGBack.jpg",
+      spine: "Pictures/GFAGSpine.jpg",
+      dateRead: "2025-08",
+      genre: "Running",
+      summary: {
+        intro: "An exploration of the science behind habit formation and how to change habits for personal and professional success.",
+        favoriteQuote: "`For habits to permanently change, people must believe that change is feasible.`",
+        sections: []
+      }
+    }
 ];
 
 // Export for use in other files
