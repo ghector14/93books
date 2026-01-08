@@ -531,13 +531,13 @@ const booksData = [
         {
           title: "The Expanding Universe",
           content: `<strong>Discovering Galaxies:</strong><br>
-          In 1924, Edwin Hubble discovered that ours is only one of many galaxies. Course Hero In 1929, Hubble discovered that light from most galaxies was shifted to the red, and that the degree of redshift is directly proportional to distance. From this, he determined that the universe is expanding.
+          In 1924, Edwin Hubble discovered that ours is only one of many galaxies. In 1929, Hubble discovered that light from most galaxies was shifted to the red, and that the degree of redshift is directly proportional to distance. From this, he determined that the universe is expanding.
           <br><br>
           <strong>Friedmann's Models:</strong><br>
           Russian mathematician Alexander Friedmann predicted in 1922 that the universe looks the same in every direction and that expansion would look the same from any galaxy. He proposed three models for how the universe might expand or contract.
           <br><br>
           <strong>The Big Bang:</strong><br>
-          The most successful explanation is that the cosmos began as a single, infinitely dense point and expanded rapidly as the result of a massive explosion—the Big Bang singularity, considered the beginning of time.
+          The most successful explanation is that the cosmos began as a single, infinitely dense point and expanded rapidly as the result of a massive explosion, the Big Bang singularity, considered the beginning of time.
           <br><br>
           <strong>Hawking's Contribution:</strong><br>
           Penrose and Hawking released a paper in 1970 proving the big bang theory. However, Hawking later changed his position when considering quantum mechanics.
@@ -564,31 +564,196 @@ const booksData = [
         },
         {
           title: "Elementary Particles and Forces of Nature",
-          content: `An overview of the fundamental particles and forces that govern the behavior of matter and energy in the universe.`
+          content: `<strong>Building Blocks</strong>:<br>
+          Matter is made of atoms, which consist of a nucleus (protons and neutrons) surrounded by electrons. Protons and neutrons are made of smaller particles called quarks.
+          <br><br>
+          <strong> Types of Particles</strong>:<br>
+          Matter Particles: Quarks and leptons (electrons, neutrinos). There are six types of quarks and six types of leptons.
+          Force-Carrying Particles: Photons (electromagnetic force), W and Z bosons (weak nuclear force), gluons (strong nuclear force), gravitons (gravity, theoretical).
+          <br><br>
+          <strong> Quarks</strong>:<br>
+          Quarks are the smallest particles we've discovered. Six "flavors" (up, down, strange, charmed, bottom, top) in three "colors" (red, green, blue). They combine to form protons and neutrons, which make atoms. Name from James Joyce: "Three quarks for Muster Mark!"
+          <br><br>
+          <strong> Leptons</strong>:<br>
+          Leptons include electrons and neutrinos. Electrons orbit the nucleus of an atom. Neutrinos are nearly massless and rarely interact with matter.
+          <br><br>
+          <strong> Forces of Nature</strong>:<br>
+          Spin: Particles have a "spin" property. Matter particles (quarks, electrons) have spin ½. Force-carrying particles have spin 0, 1, or 2.
+          Pauli Exclusion Principle: Two identical particles can't occupy the same position and velocity simultaneously. This is why matter takes up space.
+          <br><br>
+          <strong>The Four Forces</strong>:<br>
+          1. Gravity - Weakest. Carried by gravitons (spin 2). Always attractive, long-range.<br>
+          2. Electromagnetic - Carried by photons (spin 1). Attracts or repels. Holds atoms together.<br>
+          3. Weak Nuclear - Causes radioactivity. Acts on spin ½ particles.<br>
+          4. Strong Nuclear - Strongest. Carried by gluons (spin 1). Holds quarks together inside protons/neutrons. Confinement rule: Quarks must combine to be "white" (all three colors or color + anti-color). Free quarks can't exist alone.<br>
+          <br><br>
+          <strong> Unification</strong>:<br>
+          Grand Unified Theories (GUTs) combine electromagnetic, weak nuclear, and strong nuclear forces. Gravity remains separate. At extremely high energy, the three unified forces behave as one.
+          <br><br>
+          <strong> Symmetries (C, P, T)</strong>:<br>
+          C: Laws same for particles and antiparticles
+          P: Laws same for mirror images
+          T: Laws same forward and backward in time
+          <br><br>
+          Universe doesn't perfectly follow T symmetry, which explains why we have more matter than antimatter today.`
         },
         {
           title: "Black Holes",
-          content: `An exploration of the uncertainty principle and its implications for our understanding of the behavior of particles at the quantum level.`
+          content: ` <strong>Star Lifecycle</strong>:<br>
+          Stars exist in a balance: gravity pulls inward while heat from nuclear fusion pushes outward. When a star runs out of fuel, gravity wins and the star collapses.
+          <br><br>
+          <strong>Chandrasekhar Limit</strong>:<br>
+          Physicist Subrahmanyan Chandrasekhar calculated that stars below 1.4 solar masses (1.4x the sun's mass) become stable cold stars (white dwarfs or neutron stars) after death. Stars above 1.4 solar masses collapse into black holes. Einstein and Arthur Eddington initially rejected this theory. Chandrasekhar later won the Nobel Prize for this work.
+          <br><br>
+          <strong>What is a Black Hole?</strong><br>
+          A collapsed star so dense that nothing, not even light—can escape its gravity. Since light is the fastest thing in the universe, if light can't escape, nothing can.
+          <br><br>
+          <strong>Event Horizon</strong>:<br>
+          The boundary of a black hole. Cross this point and you can never escape. Hawking described it with Dante's quote: "All hope abandon, ye who enter here." It acts as a one way membrane things can go in but never come out.
+          <br><br>
+          <strong>Singularity</strong>:<br>
+          At the center of a black hole lies a singularity: a point of infinite density where space-time curves infinitely. Laws of physics break down here, similar to the Big Bang.
+          <br><br>
+          <strong>Time Relativity at Black Holes</strong>:<br>
+          Time behaves differently near black holes. To a distant observer, an object falling into a black hole appears to slow down and take infinite time to reach the event horizon. To the falling object, it crosses quickly.
+          <br><br>
+          <strong>Detection</strong>:<br>
+          Black holes don't emit light, but we can detect them through their effects: stars orbiting invisible objects, X-ray emissions from matter falling in. Cygnus X-1 was the first plausible black hole candidate. The term "black hole" was coined by John Wheeler in 1969.
+          <br><br>
+          <strong>Shape</strong>:<br>
+          Non-rotating black holes are perfectly spherical. Rotating black holes have axial symmetry (flattened at poles).`
         },
         {
           title: "Black Holes Ain't So Black",
-          content: `An exploration of the uncertainty principle and its implications for our understanding of the behavior of particles at the quantum level.`
+            content: `<strong>Event Horizon Growth</strong>:<br>
+          Hawking discovered (1970): Black hole event horizons can only grow, never shrink. This mirrors entropy, disorder always increases.
+          <br><br>
+          <strong>The Problem</strong>:<br>
+          Jacob Bekenstein said black holes have entropy (measured by event horizon area). But if they have entropy → they have temperature → they must emit radiation. This contradicted the idea that nothing escapes black holes.
+          <br><br>
+          <strong>Hawking Radiation (1974)</strong>:<br>
+          Hawking solved it using quantum mechanics: <br>
+
+          "Empty" space has virtual particle-antiparticle pairs that constantly appear and annihilate. <br>
+          Near the event horizon, gravity separates them before they annihilate <br>
+          One particle (negative energy) falls in, the other (positive energy) escapes <br>
+          Black hole appears to emit radiation and loses mass over time <br>
+          <br><br>
+          <strong>Key Points</strong>:<br>
+          - Black holes emit radiation (Hawking radiation) due to quantum effects near the event horizon <br>
+          - This radiation causes black holes to lose mass and eventually evaporate <br>
+          - Smaller black holes radiate faster and are hotter <br>
+          - Stellar mass black holes take longer than the universe's age to evaporate completely <br>
+          - This theory combines general relativity and quantum mechanics <br>
+          <br><br>
+          <strong>Result</strong>:<br> 
+          Black holes aren't perfectly black, they glow and slowly shrink.         `
         },
         {
           title: "The Origin and Fate of the Universe",
-          content: `A discussion of various theories regarding the origin and ultimate fate of the universe, including the Big Bang and potential scenarios for its future evolution.`
+          content: `<strong>Hot Big Bang Model</strong><br>
+          Universe began extremely hot and has been expanding and cooling ever since. Evidence: galaxy redshift, cosmic microwave background, hydrogen/helium ratios.
+          <br><br>
+          <strong> The Problem: Uniformity</strong><br>
+          Why is the universe so uniform? Distant regions have the same temperature but were never close enough to equalize. The universe had to start in very specific conditions to support life.
+          <br><br>.
+          <strong>Inflation Theory (Alan Guth)</strong><br>
+          Early universe expanded exponentially fast in first fraction of a second. <br>
+          During inflation: <br>
+          Four forces were unified<br>
+          Forces separated as universe cooled<br>
+          Tiny quantum fluctuations became seeds for galaxies<br>
+          Explains uniformity and flatness
+          <br><br>
+          <strong>Possible Fates</strong>:<br>
+          Big Crunch -> Universe contracts back to singularity<br>
+          Eternal Expansion -> Universe expands forever<br>
+          Oscillating -> Endless Big Bang → Big Crunch cycles<br>
+          <br><br>
+          <strong>No Boundary Proposal (Hawking)</strong><br>
+          Space-time is finite but has no edge or boundary (like Earth's surface). No beginning, no moment of Creation. Combines general relativity and quantum mechanics.
+          <br><br>
+          <strong>Anthropic Principle</strong><br>
+          "We see the universe the way it is because we exist." If conditions were slightly different, life couldn't exist.
+          <br><br>
+          <strong>Vatican Note</strong><br>
+          Pope told scientists not to study the Big Bang (God's work). Hawking had just presented his no-boundary theory—thankfully the Pope didn't know.         `
         },
         {
           title: "The Arrow of Time",
-          content: `An examination of the concept of time's directionality, entropy, and the implications for our understanding of the universe's past and future.`
+          content: `<strong>The Question</strong><br>
+          Why does time only move forward? Laws of physics work the same whether time runs forward or backward, yet we only experience one direction.
+          <br><br>
+          <strong>Three Arrows of Time</strong>:<br>
+          1. Thermodynamic Arrow</br>
+          Direction in which disorder (entropy) increases </br>
+          Second law of thermodynamics: entropy always increases in isolated systems</br>
+          Example: Cup falls and shatters into pieces, never reassembles itself</br>
+          There are always more disordered states than ordered ones<br>
+          <br><br>
+          <strong>2. Psychological Arrow</strong><br>
+          Direction in which we remember the past but not the future <br>
+          Determined by thermodynamic arrow <br>
+          Making memories creates order in our brain but releases heat (disorder) into universe <br>
+          We measure time by watching disorder increase<br>
+          These two arrows always point the same direction<br>
+          <br><br>
+          <strong>3. Cosmological Arrow</strong><br>
+          Direction in which the universe expands (not contracts) <br>
+          May not always point the same way as the other two <br>
+          <br><br>
+          <strong>Why They Align Now</strong><br>
+          Hawking initially thought all three arrows would reverse if universe stopped expanding and began contracting. He was wrong. Disorder would continue increasing even during contraction.
+          <br><br>
+          <strong>Anthropic Principle Explanation</strong><br>
+          All three arrows point the same direction now because intelligent life can only exist during the expanding phase with a strong thermodynamic arrow. In a contracting phase, stars would be burned out and conditions unsuitable for life. We observe arrows pointing this way because it's the only phase where beings like us could exist to ask the question.
+          <br><br>
+          <strong>Hawking's Mistake</strong><br>
+          Hawking admitted his error publicly. He notes some scientists deny mistakes (like Eddington with black holes), while Einstein called the cosmological constant "the biggest mistake of his life." Admitting mistakes advances science.`
         },
         {
           title: "The Unification of Physics",
-          content: `An exploration of ongoing efforts to unify the fundamental forces of nature into a single theoretical framework, including discussions of string theory and quantum gravity.`
+          content: `<strong>The Problem</strong><br>
+          We have partial theories that don't fit together:<br>
+          General relativity - explains gravity (large scale)<br>
+          Quantum mechanics - explains other three forces (small scale)<br>
+          Can't combine them—gravity doesn't incorporate uncertainty principle<br><br>
+          <strong>Grand Unified Theories (GUTs)</strong><br>
+          Successfully combine electromagnetic, weak nuclear, and strong nuclear forces. But gravity is excluded, it's the missing piece.<br><br>
+          <strong>Attempted Solutions</strong><br>
+          Supergravity - Tried unifying particles with different spin. Math too complex to solve.
+          String Theory (1984) - Particles are tiny vibrating strings, not dots. Different vibrations = different particles. Could unify all four forces. Requires 10 dimensions. Still incomplete, no testable predictions.
+          <br><br>
+          <strong>Three Possibilities</strong><br>
+          Complete unified theory exists -> we'll eventually find it<br>
+          Overlapping partial theories -> keep getting more accurate forever<br>
+          No single theory exists -> like Gödel proved for arithmetic<br><br>
+          <strong>Hawking's View</strong><br>
+          Maybe no single formula, but "patchwork of overlapping maps" that together explain everything. Scientific discovery could continue indefinitely.<br><br>
+          <strong>Bottom Line</strong><br>
+          Unifying gravity with quantum mechanics remains physics' greatest challenge. Even if found, we could never prove it's absolutely correct, just that it hasn't been disproven yet.`
         },
         {
           title: "Conclusion",
-          content: `A reflection on the current state of our understanding of the universe and the ongoing quest for knowledge in cosmology and theoretical physics.`
+          content: `<strong>Science's Goal</strong><br>
+          Find a complete unified theory that explains everything, from the Big Bang to black holes to human existence. This represents humanity's deepest longing for meaning.
+          <br><br>
+          <strong>Will It Matter?</strong><br>
+          Hawking admits: Discovering a unified theory may not change daily life or help humanity survive. It won't cure diseases or solve practical problems. So why pursue it?
+          <br><br>
+          <strong>Why It Matters</strong><br>
+          Because asking "why" is fundamentally human. We've looked at the stars and asked these questions since ancient times. The quest for knowledge is what makes us human, it's the search for the meaning of life itself.
+          <br><br>
+          <strong>The Deepest Question</strong><br>
+          Even if we find the unified theory, a complete set of rules and equations, one question remains:
+          "What breathes fire into the equations and makes a universe for them to describe?"
+          Science can explain how the universe works, but cannot answer why there should be a universe at all.
+          <br><br>
+          <strong>God's Role</strong>
+          If the universe is completely self-contained (no boundary proposal), with no beginning or end, then what place for a creator? This remains an open philosophical question.
+          <br><br>
+          <strong>Final Thought</strong><br>
+          If we discover the complete theory of the universe, we would truly know the mind of God—we'd understand not just the laws, but why the universe exists for those laws to govern.          `
         }
       ]
     }
@@ -607,7 +772,55 @@ const booksData = [
     summary: {
       intro: "An exploration of the science behind habit formation and how to change habits for personal and professional success.",
       favoriteQuote: "`For habits to permanently change, people must believe that change is feasible.`",
-      sections: []
+      sections: [
+        {
+          title: "Part 1: The Habits of Individuals",
+          content: `<strong>Chapter 1: The Habit Loop - How Habits Work</strong><br>
+          Every habit follows a neurological pattern:<br>
+          Cue - A trigger that tells your brain to go into automatic mode<br>
+          Routine - The behavior itself (physical, mental, or emotional)<br>
+          Reward - A benefit that helps your brain remember the loop for the future
+          <br><br>
+          <strong>How It Works</strong><br>
+          Habits are stored in the basal ganglia (primitive part of brain).
+          Brain "chunks" behaviors together into automatic responses.
+          Once formed, habits run on autopilot with minimal mental effort.
+          40% of daily actions are habits, not conscious decisions.
+          Your brain can't distinguish good habits from bad ones and
+          habits never truly disappear, they're permanently encoded in brain structures.       
+          <br><br>
+          <strong>MIT Rat Study</strong><br>
+          As rats learned to navigate mazes, their brain activity decreased. Behavior became automatic. The brain conserves energy by turning repeated actions into habits.
+          <br><br>
+          <strong>Chapter 2: The Craving Brain - How to Create New Habits</strong><br>
+          Cravings Drive the Loop<br>
+          The loop alone isn't enough. For habits to stick, the brain must crave the reward before receiving it. This craving is what makes habits powerful and automatic.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Pepsodent - Claude Hopkins made toothbrushing a national habit by creating a craving for the "tingly feeling" that signaled clean teeth. People craved the feeling of confirmation that the product worked.<br>
+          Febreze - Became successful when marketed as the "final touch" reward in cleaning routines. People began craving the fresh scent as validation that their home was clean.<br>
+          Exercise - Runners crave the endorphin rush or "good feeling" after workouts, which keeps them coming back.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Once your brain anticipates the reward and starts craving it, the habit becomes nearly impossible to ignore. The craving is what transforms a simple loop into an automatic behavior. `
+          
+
+      },
+      {
+          title: "Part 2: The Habits of Individuals",
+          content: `<strong>Chapter 2: The Craving Brain - How to Create New Habits</strong><br>
+          Cravings Drive the Loop<br>
+          The loop alone isn't enough. For habits to stick, the brain must crave the reward before receiving it. This craving is what makes habits powerful and automatic.<br>
+          Examples:<br>
+          Pepsodent - Claude Hopkins made toothbrushing a national habit by creating a craving for the "tingly feeling" that signaled clean teeth. People craved the feeling of confirmation that the product worked.<br>
+          Febreze - Became successful when marketed as the "final touch" reward in cleaning routines. People began craving the fresh scent as validation that their home was clean.<br>
+          Exercise - Runners crave the endorphin rush or "good feeling" after workouts, which keeps them coming back.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Once your brain anticipates the reward and starts craving it, the habit becomes nearly impossible to ignore. The craving is what transforms a simple loop into an automatic behavior.         `
+
+      }
+    ]
     }
   },
 
