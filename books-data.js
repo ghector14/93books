@@ -475,7 +475,167 @@ const booksData = [
     summary: {
       intro: "A comprehensive guide to value investing and financial wisdom.",
       favoriteQuote: "`The intelligent investor is a realist who sells to optimists and buys from pessimists.`",
-      sections: []
+      sections: [ {
+          title: "Chapter 1: Investment versus Speculation: Results to Be Expected by the Intelligent Investor",
+          content: `<strong>Investment vs. Speculation</strong><br>
+          Investment is based on thorough analysis, promises safety of principal, and offers an adequate return. Speculation, on the other hand, involves higher risk and is often driven by market trends rather than fundamentals.
+          <br><br>
+          <strong>The Intelligent Investor's Approach</strong><br>
+          The intelligent investor focuses on long-term value and avoids short-term market fluctuations. They seek to buy undervalued assets and hold them for the long term, rather than trying to time the market.
+          `
+      },
+      {   title: "Chapter 2: The Investor and Inflation",
+          content: `<strong>Impact of Inflation</strong><br>
+          Inflation erodes the purchasing power of money over time. Investors must consider inflation when making investment decisions to ensure that their returns outpace inflation.
+          <br><br>
+          <strong>Strategies to Combat Inflation</strong><br>
+          Diversifying investments, including assets that historically perform well during inflationary periods, such as real estate and commodities, can help protect against inflation's effects.
+          `
+      },
+      {   title: "Chapter 3: A Century of Stock-Market History: The Level of Stock Prices in Early 1972",
+          content: `<strong>Historical Stock Market Trends</strong><br>
+          Understanding historical stock market trends can provide valuable insights for investors. The stock market has experienced cycles of booms and busts, influenced by economic conditions, investor sentiment, and external events.
+          <br><br>
+          <strong>Valuation Metrics</strong><br>
+          Investors should use valuation metrics, such as price-to-earnings ratios and dividend yields, to assess whether stocks are overvalued or undervalued relative to historical norms.
+          `
+      }, 
+      {   title: "Chapter 4: General Portfolio Policy: The Defensive Investor",
+          content: `<strong>Defensive Investor's Strategy</strong><br>
+          The defensive investor prioritizes safety and stability in their investment portfolio. They focus on diversification, low-cost investments, and avoiding high-risk assets.
+          <br><br>
+          <strong>Asset Allocation</strong><br>
+          A balanced asset allocation between stocks and bonds can help manage risk and provide steady returns. The defensive investor should regularly review and adjust their portfolio to maintain the desired allocation.
+          `
+      },
+      {   title: "Chapter 5: The Defensive Investor and Common Stocks",
+          content: `<strong>Common Stocks for Defensive Investors</strong><br>
+          Defensive investors should focus on high-quality, dividend-paying stocks with a history of stable earnings and strong financials. These stocks tend to be less volatile and provide a reliable income stream.
+          <br><br>
+          <strong>Selection Criteria</strong><br>
+          When selecting common stocks, defensive investors should consider factors such as market capitalization, dividend history, and financial strength to ensure they are investing in solid companies.
+          `
+      },
+      {   title: "Chapter 6: Portfolio Policy for the Enterprising Investor: Negative Approach",
+          content: `<strong>Enterprising Investor's Negative Approach</strong><br>
+          The enterprising investor actively seeks undervalued stocks and opportunities in the market. They are willing to take on more risk in pursuit of higher returns.
+          <br><br>
+          <strong>Avoiding Pitfalls</strong><br>
+          Enterprising investors should avoid speculative stocks, overvalued assets, and companies with weak financials. A disciplined approach to research and analysis is essential for success.
+          `
+      },      {   title: "Chapter 7: Portfolio Policy for the Enterprising Investor: The Positive Side",
+          content: `<strong>Enterprising Investor's Positive Approach</strong><br>
+          The enterprising investor focuses on identifying undervalued stocks with strong growth potential. They conduct thorough research and analysis to find opportunities that the market may have overlooked.
+          <br><br>
+          <strong>Investment Strategies</strong><br>
+          Strategies such as value investing, growth investing, and special situations can help enterprising investors achieve superior returns. Patience and discipline are key to capitalizing on these opportunities.
+          `
+      },
+      {   title: "Chapter 8: The Investor and Market Fluctuations",
+          content: `<strong>Dealing with Market Fluctuations</strong><br>
+          Market fluctuations are inevitable, and investors must learn to navigate them without succumbing to emotional reactions. The intelligent investor remains focused on long-term goals and avoids impulsive decisions based on short-term market movements.
+          <br><br>
+          <strong>Margin of Safety</strong><br>
+          A key principle for dealing with market fluctuations is maintaining a margin of safety in investments. This involves buying assets at a price significantly below their intrinsic value to protect against downside risk.
+          `
+      },
+      {   title: "Chapter 9: Investing in Investment Funds",
+          content: `<strong>Investment Funds Overview</strong><br>
+          Investment funds, such as mutual funds and exchange-traded funds (ETFs), offer investors a way to diversify their portfolios and access professional management.
+          <br><br>
+          <strong>Choosing the Right Fund</strong><br>
+          When selecting investment funds, investors should consider factors such as fees, performance history, management style, and the fund's investment objectives to ensure alignment with their own goals.
+          `
+      },
+      {   title: "Chapter 10: The Investor and His Advisers",
+          content: `<strong>Working with Financial Advisers</strong><br>
+          Investors may choose to work with financial advisers to help manage their portfolios and make informed investment decisions. It is important to select advisers who are trustworthy, knowledgeable, and aligned with the investor's goals.
+          <br><br>
+          <strong>Evaluating Adviser Performance</strong><br>
+          Investors should regularly evaluate the performance of their advisers and ensure that their advice is in their best interest. Clear communication and understanding of fees and services are essential for a successful adviser-client relationship.
+          `
+      },
+      {   title: "Chapter 11: Security Analysis for the Lay Investor: General Approach",
+          content: `<strong>Security Analysis Basics</strong><br>
+          Security analysis involves evaluating the financial health and prospects of individual securities to determine their intrinsic value. Lay investors can benefit from understanding the fundamentals of security analysis.
+          <br><br>
+          <strong>Key Metrics</strong><br>
+          Important metrics for security analysis include earnings, dividends, book value, and cash flow. By analyzing these factors, investors can make informed decisions about buying or selling securities.
+          `
+      },
+      {   title: "Chapter 12: Things to Consider About Per-Share Earnings",
+          content: `<strong>Understanding Per-Share Earnings</strong><br>
+          Per-share earnings are a key indicator of a company's profitability and financial health. Investors should consider factors such as earnings growth, consistency, and quality when evaluating per-share earnings.
+          <br><br>
+          <strong>Earnings Manipulation</strong><br>
+          Investors should be cautious of companies that may manipulate earnings through accounting practices. A thorough analysis of financial statements can help identify potential red flags.
+          `
+      },
+      {   title: "Chapter 13: A Comparison of Four Listed Companies",
+          content: `<strong>Case Studies of Listed Companies</strong><br>
+          Analyzing the financial performance and valuation of different listed companies can provide valuable insights for investors. By comparing key metrics, investors can identify strengths and weaknesses in each company.
+          <br><br>
+          <strong>Lessons Learned</strong><br>
+          The case studies highlight the importance of thorough research and analysis when selecting investments. Investors should consider factors such as industry trends, competitive advantages, and management quality when evaluating companies.
+          `
+      },
+      {   title: "Chapter 14: Stock Selection for the Defensive Investor",
+          content: `<strong>Stock Selection Criteria</strong><br>
+          Defensive investors should focus on selecting stocks that meet specific criteria, such as financial strength, dividend history, and valuation metrics. These criteria help ensure that the selected stocks align with the defensive investor's goals of safety and stability.
+          <br><br>
+          <strong>Diversification</strong><br>
+          Diversifying stock holdings across different industries and sectors can help reduce risk and enhance portfolio stability for defensive investors.
+          `
+      },
+      {   title: "Chapter 15: Stock Selection for the Enterprising Investor",
+          content: `<strong>Advanced Stock Selection Strategies</strong><br>
+          Enterprising investors can employ more advanced strategies for stock selection, such as focusing on undervalued stocks, special situations, and growth opportunities. These strategies require thorough research and analysis to identify potential winners.
+          <br><br>
+          <strong>Risk Management</strong><br>
+          While pursuing higher returns, enterprising investors must also manage risk effectively. This includes setting stop-loss limits, diversifying holdings, and maintaining a disciplined approach to investing.
+          `
+      },
+      {   title: "Chapter 16: Convertible Issues and Warrants",
+          content: `<strong>Understanding Convertibles and Warrants</strong><br>
+          Convertible securities and warrants offer investors unique opportunities to participate in a company's growth while managing risk. These instruments can provide additional income and potential capital appreciation.
+          <br><br>
+          <strong>Investment Considerations</strong><br>
+          Investors should carefully evaluate the terms and conditions of convertible securities and warrants, including conversion ratios, expiration dates, and underlying stock performance, to determine their suitability for their investment strategy.
+          `
+      },
+      {   title: "Chapter 17: Four Extremely Instructive Case Histories",
+          content: `<strong>Instructive Case Histories</strong><br>
+          Examining case histories of successful and unsuccessful investments can provide valuable lessons for investors. These case studies highlight the importance of thorough research, discipline, and risk management in achieving investment success.
+          <br><br>
+          <strong>Key Takeaways</strong><br>
+          The case histories emphasize the need for investors to remain patient, avoid emotional decision-making, and stay focused on long-term goals. Learning from past experiences can help investors improve their strategies and outcomes.
+          `
+      },
+      {   title: "Chapter 18: A Comparison of Eight Pairs of Companies",
+          content: `<strong>Comparative Analysis of Companies</strong><br>
+          Analyzing pairs of companies can provide insights into industry trends, competitive dynamics, and investment opportunities. By comparing key financial metrics and performance indicators, investors can identify potential investment candidates.
+          <br><br>
+          <strong>Investment Implications</strong><br>
+          The comparative analysis highlights the importance of understanding industry context and competitive positioning when making investment decisions. Investors should consider both quantitative and qualitative factors in their evaluations.
+          `
+      },
+      {   title: "Chapter 19: Shareholders and Managements: Dividend Policy",
+          content: `<strong>Dividend Policy Considerations</strong><br>
+          Dividend policy is an important aspect of a company's financial strategy. Investors should consider a company's dividend history, payout ratio, and growth prospects when evaluating its dividend policy.
+          <br><br>
+          <strong>Aligning Interests</strong><br>
+          A well-structured dividend policy can help align the interests of shareholders and management, providing a steady income stream for investors while supporting the company's growth objectives.
+          `
+      },
+      {   title: "Chapter 20: 'Margin of Safety' as the Central Concept of Investment",
+          content: `<strong>Margin of Safety Principle</strong><br>
+          The margin of safety is a fundamental concept in investing that involves purchasing securities at a price significantly below their intrinsic value. This approach helps protect investors from downside risk and provides a cushion against market volatility.
+          <br><br>
+          <strong>Implementing Margin of Safety</strong><br>
+          Investors can implement the margin of safety principle by conducting thorough research, using conservative valuation methods, and maintaining discipline in their investment decisions. This approach can lead to more consistent and favorable investment outcomes.
+          `
+      }
+    ]
     }
   },
 
