@@ -217,6 +217,13 @@ body {
     color: #84ff00; /* or whatever color you want */
 }
 
+#chapters {
+    color:#ff00bf;
+}
+#important {
+    color:#00fff7;
+}
+
 .accordion-content p {
     margin: 0;
 }

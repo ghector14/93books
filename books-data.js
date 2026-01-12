@@ -775,11 +775,11 @@ const booksData = [
       sections: [
         {
           title: "Part 1: The Habits of Individuals",
-          content: `<strong>Chapter 1: The Habit Loop - How Habits Work</strong><br>
+          content: `<strong id="chapters">Chapter 1:</strong><strong> The Habit Loop - How Habits Work</strong><br>
           Every habit follows a neurological pattern:<br>
-          Cue - A trigger that tells your brain to go into automatic mode<br>
-          Routine - The behavior itself (physical, mental, or emotional)<br>
-          Reward - A benefit that helps your brain remember the loop for the future
+          <strong id="important">Cue</strong> - A trigger that tells your brain to go into automatic mode<br>
+          <strong id="important">Routine</strong> - The behavior itself (physical, mental, or emotional)<br>
+          <strong id="important">Reward</strong> - A benefit that helps your brain remember the loop for the future
           <br><br>
           <strong>How It Works</strong><br>
           Habits are stored in the basal ganglia (primitive part of brain).
@@ -792,8 +792,7 @@ const booksData = [
           <strong>MIT Rat Study</strong><br>
           As rats learned to navigate mazes, their brain activity decreased. Behavior became automatic. The brain conserves energy by turning repeated actions into habits.
           <br><br>
-          <strong>Chapter 2: The Craving Brain - How to Create New Habits</strong><br>
-          Cravings Drive the Loop<br>
+          <strong id="chapters">Chapter 2:</strong><strong> The Craving Brain - How to Create New Habits</strong><br>
           The loop alone isn't enough. For habits to stick, the brain must crave the reward before receiving it. This craving is what makes habits powerful and automatic.<br>
           <br>
           <strong>Examples:</strong><br>
@@ -802,24 +801,80 @@ const booksData = [
           Exercise - Runners crave the endorphin rush or "good feeling" after workouts, which keeps them coming back.<br>
           <br>
           <strong>Key Insight</strong><br>
-          Once your brain anticipates the reward and starts craving it, the habit becomes nearly impossible to ignore. The craving is what transforms a simple loop into an automatic behavior. `
-          
-
-      },
-      {
-          title: "Part 2: The Habits of Individuals",
-          content: `<strong>Chapter 2: The Craving Brain - How to Create New Habits</strong><br>
-          Cravings Drive the Loop<br>
-          The loop alone isn't enough. For habits to stick, the brain must crave the reward before receiving it. This craving is what makes habits powerful and automatic.<br>
-          Examples:<br>
-          Pepsodent - Claude Hopkins made toothbrushing a national habit by creating a craving for the "tingly feeling" that signaled clean teeth. People craved the feeling of confirmation that the product worked.<br>
-          Febreze - Became successful when marketed as the "final touch" reward in cleaning routines. People began craving the fresh scent as validation that their home was clean.<br>
-          Exercise - Runners crave the endorphin rush or "good feeling" after workouts, which keeps them coming back.<br>
+          Once your brain anticipates the reward and starts craving it, the habit becomes nearly impossible to ignore. The craving is what transforms a simple loop into an automatic behavior. 
+          <br><br>
+          <strong id="chapters">Chapter 3:</strong><strong> The Golden Rule of Habit Change - Why Transformation Occurs</strong><br>
+          You can't eliminate bad habits, but you can change them by keeping the same cue and reward, but altering the routine. This is the key to habit transformation.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Alcoholics Anonymous - Members identify their cues (stress, social situations) and rewards (relief, social acceptance) and replace drinking with healthier routines like prayer or meetings.<br>
+          Tony Dungy - Transformed the Tampa Bay Buccaneers by changing players' routines while keeping the same cues (game situations) and rewards (winning). He focused on building new habits of teamwork and discipline.<br>
           <br>
           <strong>Key Insight</strong><br>
-          Once your brain anticipates the reward and starts craving it, the habit becomes nearly impossible to ignore. The craving is what transforms a simple loop into an automatic behavior.         `
-
-      }
+          To change a habit, identify the cue and reward driving it. Then experiment with different routines that provide the same reward. Over time, the new routine becomes automatic, replacing the old habit.`
+      },
+      {
+          title: "Part 2: The Habits of Successful Organizations",
+          content: `<strong id="chapters">Chapter 4:</strong><strong> Keystone Habits, Or The Ballad of Paul O'Neill</strong><br>
+          Which habits matter most in organizations? Keystone habits have the power to start a chain reaction, changing other habits as they move through an organization. They create widespread change by influencing how people work together and think about their roles.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Alcoa - Paul O'Neill focused on workplace safety as a keystone habit. This led to improved communication, efficiency, and profitability across the company.<br>
+          Starbucks - Training employees to manage stress and practice willpower improved customer service and employee retention.<br>
+          NFL - Teams that prioritized exercise and nutrition saw better performance and fewer injuries.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          By identifying and focusing on keystone habits, organizations can create a culture of change that transforms behaviors at all levels. These habits have a ripple effect, influencing other routines and attitudes.
+          <br><br>
+          <strong id="chapters">Chapter 5:</strong><strong> Starbucks and the Habit of Success</strong><br>
+          Willpower is a learnable skill that can be strengthened like a muscle. Organizations can cultivate willpower through training and supportive environments.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Starbucks - Employees are trained to handle stressful situations with customers, building their willpower and improving service.<br>
+          Alcoholics Anonymous - The program teaches members to recognize triggers and develop coping strategies, strengthening their willpower to stay sober.<br>
+          Weight Loss Programs - Successful programs focus on building habits that support long-term willpower, such as meal planning and regular exercise.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Willpower can be developed through practice and supportive habits. Organizations that prioritize willpower training can improve performance and resilience among their members.
+          <br><br><strong id="chapters">Chapter 6:</strong><strong> The Power of a Crisis - How Leaders Create Habits Through Accident and Design</strong><br>
+          Crises can create opportunities for change by disrupting existing habits and forcing organizations to adapt. Leaders can leverage crises to implement new habits and routines.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Rhode Island Hospital - After a series of medical errors, the hospital implemented new safety protocols that became ingrained habits, leading to improved patient outcomes.<br>
+          Montgomery Bus Boycott - The crisis of segregation led to the development of new habits of nonviolent protest and community organization.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Crises can serve as catalysts for change, allowing leaders to introduce new habits that improve organizational performance. By designing new routines during times of upheaval, organizations can emerge stronger and more resilient.
+          <br><br><strong id="chapters">Chapter 7:</strong><strong> How Target Knows What You Want Before You Do</strong><br>
+          Companies use data analysis to identify and influence consumer habits. By understanding purchasing patterns, they can predict future behavior and tailor marketing strategies.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Target - Uses purchasing data to identify pregnant customers and market baby products before they even realize they need them.<br>
+          Amazon - Analyzes browsing and purchase history to recommend products that align with customer habits.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          By analyzing consumer data, companies can uncover hidden habits and preferences, allowing them to anticipate needs and influence purchasing decisions. This data-driven approach to habit formation is transforming marketing strategies across industries.` 
+        },
+        {          title: "Part 3: The Habits of Societies",
+          content: `<strong id="chapters">Chapter 8:</strong><strong> Saddleback Church and the Montgomery Bus Boycott - How Movements Happen</strong><br>
+          Social habits can drive large-scale change by creating new norms and behaviors within communities. Movements often start with small groups adopting new habits that spread through social networks.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Saddleback Church - Created a culture of service and community involvement that inspired members to take action on social issues.<br>
+          Montgomery Bus Boycott - The habit of nonviolent protest spread through the African American community, leading to significant civil rights advancements.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Social habits can create powerful movements by establishing new norms and behaviors. When individuals adopt new habits, they can influence their communities and drive widespread change.
+          <br><br><strong id="chapters">Chapter 9:</strong><strong> The Neurology of Free Will - Are We Responsible for Our Habits?</strong><br>
+          While habits operate automatically, individuals can exert control over them through awareness and intentional action. Understanding the neurological basis of habits can empower people to change their behaviors.<br>
+          <br>
+          <strong>Examples:</strong><br>
+          Research shows that people can override habitual responses by engaging the prefrontal cortex, the brain region responsible for decision-making and self-control.<br>
+          Mindfulness practices can increase awareness of habitual behaviors, allowing individuals to choose different responses.<br>
+          <br>
+          <strong>Key Insight</strong><br>
+          Although habits are automatic, individuals have the capacity to change them through conscious effort. By understanding how habits work in the brain, people can develop strategies to take control of their behaviors and create lasting change.`
+        }
     ]
     }
   },
