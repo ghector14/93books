@@ -1015,7 +1015,8 @@ const booksData = [
           <strong>Key Insight</strong><br>
           By analyzing consumer data, companies can uncover hidden habits and preferences, allowing them to anticipate needs and influence purchasing decisions. This data-driven approach to habit formation is transforming marketing strategies across industries.` 
         },
-        {          title: "Part 3: The Habits of Societies",
+        {          
+          title: "Part 3: The Habits of Societies",
           content: `<strong id="chapters">Chapter 8:</strong><strong> Saddleback Church and the Montgomery Bus Boycott - How Movements Happen</strong><br>
           Social habits can drive large-scale change by creating new norms and behaviors within communities. Movements often start with small groups adopting new habits that spread through social networks.<br>
           <br>
@@ -1070,7 +1071,93 @@ const booksData = [
         summary: {
           intro: "Ask and It Is Given, the pivotal manifestation and law of attraction book by Esther and Jerry Hicks, presents the inspirational teachings of the nonphysical entity Abraham, to help you learn how to manifest your desires so that you’re living the joyous and fulfilling life you deserve.",
           favoriteQuote: "`With enough attention to anything, the essence of what you have been giving thought to will eventually become a physical manifestation.`",
-          sections: []
+          sections: [ {
+            title: "Part 1: Things That We Know, That You May Have Forgotten, Which Are Important for You To Remember",
+            content: `<strong>Central Message (repeated throughout)</strong>
+            <br>
+            You are a powerful creator connected to Source Energy. Your natural state is Well-Being. You create your reality through your thoughts and emotions using the Law of Attraction: "That which is like unto itself is drawn."
+            <br><br>
+            <strong>Key Concepts</strong><br>
+            <strong id="chapters">You Are Connected to Source</strong><br>
+            Everyone originates from the same Source Energy.<br>
+            This connection gives you the ability to create your reality.<br>
+            Most people have forgotten this connection and experience resistance.<br>
+            <br><br>
+            <strong>The Law of Attraction</strong><br>
+            Like attracts like, your dominant thoughts and emotions attract matching experiences.<br>
+            Thoughts = vibrations = point of attraction.<br>
+            Everything in the universe vibrates at a specific frequency.<br>
+            You attract what you focus on, wanted or unwanted.<br>
+            <br><br>
+            <strong>The Three-Step Creative Process</strong><br>
+            Ask - Your desires arise automatically from life experience.<br>
+            Answer - The universe immediately responds and grants your desire.<br>
+            Allow - You must be a vibrational match to receive what you've asked for.<br>
+            <br>
+            <strong>Emotional Guidance System</strong><br>
+            Your emotions are your internal GPS:<br>
+            Positive emotions = aligned with Source, allowing desires.<br>
+            Negative emotions = resistance, blocking desires.<br>
+            <br>
+            You can't jump from despair to joy, climb the scale gradually by reaching for slightly better feeling thoughts.
+            <br><br>
+            <strong>Your Only Work: Align Your Vibration</strong><br>
+            You don't create through action—you create through vibrational alignment.<br>
+            Focus on what you want, not on what you don't want.<br>
+            Feel good NOW. Your current emotion determines what you're attracting.<br>
+            <strong id="important">Appreciation and gratitude are the fastest ways to align.</strong>
+            <br><br>
+            <strong>Key Points</strong><strong>(repeated constantly)</strong><br>
+            You cannot attract what you don't vibrate.<br>
+            Whatever you give attention to expands.<br>
+            Worrying = using imagination to create what you don't want.<br>
+            Desires are not selfish—they're natural and valid.<br>
+            The universe is abundant. There's enough for everyone<br>
+            <strong id="important">You must believe you're worthy and that it's possible.</strong>
+            <br><br>
+            <strong>Resistance & Allowing</strong><br>
+            Resistance = negative emotion, blocks desires.<br>
+            Allowing = positive emotion, opens receiving.<br>
+            You can't push against unwanted things without attracting more of them.<br>
+            Let go of trying to control others, it blocks your own freedom
+            <br><br> 
+            <strong>Bottom Line</strong><br>
+            Part One is essentially one concept repeated 22 different ways:
+            Your thoughts create your reality through vibration. Feel good now by focusing on what you want, use your emotions as guidance, and you'll attract everything you desire. Resistance (negative emotion) blocks; allowing (positive emotion) opens.
+            The repetition is intentional. Abraham (the channeled entity) wants to drill this into your consciousness until it becomes second nature.
+            `
+          },
+        {
+            title: "Part 2: Processes to Help You Achieve What You Now Remember",
+            content: `<strong>Practical Exercises</strong><br>
+            The second part provides 22 specific processes to help you align your vibration and manifest desires.<br><br>
+            <strong>Examples of Processes</strong><br>
+            <strong id='chapters'>- Rampage of Appreciation:</strong> List things you appreciate to raise your vibration.<br>
+            <strong id='chapters'>- The Magical Creation Box:</strong> Get a physical box and write on lid: "Whatever is in this box IS". Put pictures, magazine clippings, notes about your desires<br>
+            <strong id='chapters'>- Creative Workshop:</strong> Focus on a desire and brainstorm ways to feel good about it.<br>
+            <strong id='chapters'>- Virtual Reality:</strong> Visualize desired experiences in detail.<br>
+            <strong id='chapters'>- The prospertity game:</strong> Imagine having unlimited money, then list all the things you'd buy or do.<br>
+            <strong id='chapters'>- The Process of Meditation:</strong> Quiet your mind to connect with Source energy.<br>
+            <strong id='chapters'>- Evaluating Dreams:</strong> Analyze your dreams for vibrational clues about your desires. Dreams reflect your dominant vibrations<br>
+            <strong id='chapters'>- The Book of Positive Aspects:</strong> Write down positive aspects of yourself, others, and situations to shift focus to the good.<br>
+            <strong id='chapters'>- Scripting:</strong> Write a story about your life as if all your desires have already manifested.<br>
+            <strong id='chapters'>- The Place Mat Process:</strong> Use a placemat divided into sections to focus on different areas of your life (health, relationships, career) and write positive affirmations for each.<br>
+            <strong id='chapters'>- Segment Intending:</strong> Set intentions for each part of your day.<br>
+            <strong id='chapters'>- Wouldn't It Be Nice If:</strong> Imagine how nice it would be if your desires were already fulfilled.<br>
+            <strong id='chapters'>- Which Thought Feels Better:</strong> When faced with a negative thought, find a slightly better feeling thought to focus on instead.<br>
+            <strong id='chapters'>- The Process of Clearing Clutter:</strong> Remove physical clutter to create a more positive environment.<br>
+            <strong id='chapters'>- The Wallet Process:</strong> Visualize your wallet filled with money to attract financial abundance.<br>
+            <strong id='chapters'>- Pivoting:</strong> When negative thoughts arise, pivot to a more positive perspective.<br>
+            <strong id='chapters'>- The Focus Wheel:</strong> Create a wheel diagram with your desire in the center and positive aspects radiating outward to focus on.<br>
+            <strong id='chapters'>- Finding the Feeling Place:</strong> Identify where in your body you feel positive emotions and focus on that sensation.<br>
+            <strong id='chapters'>- Releasing Resistance to Become Free of Debt:</strong> Shift from "I'm in debt" to "Money flows easily to me".<br>
+            <strong id='chapters'>- Turning It Over to the Manager:</strong> Let go of control and trust the universe to handle your desires.<br>
+            <strong id='chapters'>- Reclaiming One's Natural State of Health:</strong> Focus on feeling healthy and vibrant rather than illness.<br>
+            <strong id='chapters'>- Moving Up the Emotional Scale:</strong> Identify your current emotion and find a slightly better feeling emotion to focus on next.<br>
+            <strong>Key Insight</strong><br>
+            These processes are tools to help you practice focusing on positive thoughts and feelings, thereby aligning with your desires. Regular use strengthens your ability to manifest what you want.
+          `}
+        ],
         }
       },
       {
