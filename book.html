@@ -22,6 +22,7 @@
             <img id="imghome" src="Pictures/FullMoon.png" alt="Home">
         </a>
         <div class="links">
+            <a href="about.html" id="main">About</a>
             <a href="index.html" id="main">All Books</a>
             <a href="#summary" id="main">Summary</a>
         </div>
@@ -46,7 +47,8 @@
         <div class="summary-intro">
             <p id="summary-intro-text"></p>
         </div>
-
+        
+        <!-- Favorite Quote Section (if exists) -->
         <div id="favorite-quote-section" style="display: none;">
             <h3 class="quote-header">Favorite Quote</h3>
             <blockquote id="favorite-quote-text"></blockquote>
@@ -79,10 +81,12 @@
             document.getElementById('book-author').textContent = `by ${book.author}`;
             document.getElementById('summary-intro-text').innerHTML = book.summary.intro;
             
+            // Display favorite quote if it exists
             if (book.summary.favoriteQuote) {
                 document.getElementById('favorite-quote-section').style.display = 'block';
                 document.getElementById('favorite-quote-text').textContent = book.summary.favoriteQuote;
             }
+            
             // Set 3D book covers (if available)
             if (book.coverFront) {
                 const frontDiv = document.querySelector('.front');
